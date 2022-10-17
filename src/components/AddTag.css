@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  @media (min-width: 750px) {
+
+    input{
+        margin: 10px 15%;
+    }
+  }
